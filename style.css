@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  background:#000;
+  color:#fff;
+  font-family:monospace;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+button{
+  font-size:20px;
+  padding:10px 30px;
+  margin:6px;
+  cursor:pointer;
+}
+
+.select{
+  border:2px solid #0ff;
+  background:#022;
+  color:#0ff;
+}
+
+#title,#settings{
+  text-align:center;
+}
+
+#gameWrap{
+  display:none;
+  gap:20px;
+}
+
+canvas{
+  background:#000;
+  border:3px solid #0ff;
+}
+
+.info{
+  font-size:14px;
+}

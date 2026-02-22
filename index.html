@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>TETRIS 9999 LINE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="title">
+  <h1>TETRIS</h1>
+  <h2>9999 LINE</h2>
+  <button id="start">START</button><br>
+  <button id="openSettings">SETTINGS</button>
+</div>
+
+<div id="settings" style="display:none">
+  <h2>KEY CONFIG</h2>
+  <button id="keyA" class="select">TYPE A</button><br>
+  <img src="A.jpg" width="200"><br>
+  <button id="keyB">TYPE B</button><br>
+  <img src="B.jpg" width="200"><br>
+
+  <h2>GAME SETTINGS</h2>
+  <label>Gravity <input id="gravity" type="range" min="50" max="1500" value="800"></label><br>
+  <label>DAS <input id="das" type="range" min="50" max="300" value="150"></label><br>
+  <label>ARE <input id="are" type="range" min="0" max="500" value="100"></label><br>
+
+  <button id="back">BACK</button>
+</div>
+
+<div id="gameWrap">
+  <canvas id="game" width="240" height="480"></canvas>
+  <div class="info">
+    <div>LINES <span id="lines">0</span>/9999</div><br>
+    <div>HOLD</div>
+    <canvas id="hold" width="96" height="96"></canvas><br>
+    <div>NEXT</div>
+    <canvas id="next" width="96" height="240"></canvas>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>TETRIS 9999 LINE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="title">
+  <h1>TETRIS</h1>
+  <h2>9999 LINE</h2>
+  <button id="start">START</button><br>
+  <button id="openSettings">SETTINGS</button>
+</div>
+
+<div id="settings" style="display:none">
+  <h2>KEY CONFIG</h2>
+  <button id="keyA" class="select">TYPE A</button><br>
+  <img src="A.jpg" width="200"><br>
+  <button id="keyB">TYPE B</button><br>
+  <img src="B.jpg" width="200"><br>
+  <button id="back">BACK</button>
+</div>
+
+<div id="gameWrap">
+  <canvas id="game" width="240" height="480"></canvas>
+  <div class="info">
+    <div>LINES <span id="lines">0</span>/9999</div><br>
+    <div>HOLD</div>
+    <canvas id="hold" width="96" height="96"></canvas><br>
+    <div>NEXT</div>
+    <canvas id="next" width="96" height="240"></canvas>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
